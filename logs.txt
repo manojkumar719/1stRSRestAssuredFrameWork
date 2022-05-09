@@ -1,0 +1,210 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "1stHouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "India",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://MyCountry.com",
+    "language": "Telugu",
+    "status": null,
+    "place_id": null,
+    "scope": null,
+    "reference": null,
+    "id": null
+}
+HTTP/1.1 200 OK
+Date: Sat, 07 May 2022 06:07:08 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "cad08ed9cd91b9bc70c677de14994a28",
+    "scope": "APP",
+    "reference": "d3e717958ec0cb1feccfa8e04d451d1dd3e717958ec0cb1feccfa8e04d451d1d",
+    "id": "d3e717958ec0cb1feccfa8e04d451d1d"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=cad08ed9cd91b9bc70c677de14994a28
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=cad08ed9cd91b9bc70c677de14994a28
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 07 May 2022 06:07:10 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 230
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "1stHouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "India",
+    "types": "shoe park,shop",
+    "website": "http://MyCountry.com",
+    "language": "Telugu"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "2ndHouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "India",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://MyCountry.com",
+    "language": "Kannada",
+    "status": null,
+    "place_id": null,
+    "scope": null,
+    "reference": null,
+    "id": null
+}
+HTTP/1.1 200 OK
+Date: Sat, 07 May 2022 06:07:10 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "6e9184c8ed83454ca1e97096eab64c8d",
+    "scope": "APP",
+    "reference": "2df439413b27b3e15c5a1ead3ba07b642df439413b27b3e15c5a1ead3ba07b64",
+    "id": "2df439413b27b3e15c5a1ead3ba07b64"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6e9184c8ed83454ca1e97096eab64c8d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=6e9184c8ed83454ca1e97096eab64c8d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 07 May 2022 06:07:10 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 231
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "2ndHouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "India",
+    "types": "shoe park,shop",
+    "website": "http://MyCountry.com",
+    "language": "Kannada"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "6e9184c8ed83454ca1e97096eab64c8d"
+}
+HTTP/1.1 200 OK
+Date: Sat, 07 May 2022 06:07:11 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
